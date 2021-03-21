@@ -1,0 +1,47 @@
+﻿* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arvo', serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	color: black;
+	background-size: cover;
+}
+
+#time {
+	font-size: 8rem;
+}
+
+h1 {
+	margin-bottom: 3rem;
+}
+
+h2 {
+	margin-bottom: 0.5rem;
+	
+}
+
+#enterBtn {
+	background-color: #3333ff; 
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+
+@media(max-width: 700px) {
+	#time {
+		font-size: 6rem;
+	}
+}
